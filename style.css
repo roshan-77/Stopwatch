@@ -1,0 +1,33 @@
+.time{
+    display: flex;
+    height: 50vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 7rem;
+    /* margin: 0 auto; */
+}
+
+.btncontainer{
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 25px;
+    margin: 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+@media only screen and (max-width: 480px) {
+    .time {
+      font-size: 3rem;
+    }
+    
+  }
